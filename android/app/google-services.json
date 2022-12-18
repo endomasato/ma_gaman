@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "165535589096",
+    "project_id": "fir-todo-a4511",
+    "storage_bucket": "fir-todo-a4511.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165535589096:android:51e6cba76f25d65b69df5d",
+        "android_client_info": {
+          "package_name": "com.example.ma_gaman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165535589096-1uuorhu15t6um9avo907n53p53drl7qi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaUsN1wbEFGof7v5J2eVmDdhkwTvOvH4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165535589096-1uuorhu15t6um9avo907n53p53drl7qi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "165535589096-sg6imu4bmauua8hlv9541fqv58dgrcuj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.textFire"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165535589096:android:43cff7a100f2b8a169df5d",
+        "android_client_info": {
+          "package_name": "com.example.text_fire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165535589096-1uuorhu15t6um9avo907n53p53drl7qi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaUsN1wbEFGof7v5J2eVmDdhkwTvOvH4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165535589096-1uuorhu15t6um9avo907n53p53drl7qi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "165535589096-sg6imu4bmauua8hlv9541fqv58dgrcuj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.textFire"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
