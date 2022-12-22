@@ -57,11 +57,10 @@ class MyHomePage extends ConsumerWidget {
           ),
       floatingActionButton: FloatingActionButton(
         onPressed: mainModel.incrementCounter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.person),
+        tooltip: 'gaman',
+        child: const Icon(Icons.add),
       ),
       bottomNavigationBar: CountBottomNavigationBar(countBottomNavigationBarModel: countBottomNavigationBarModel,),
-// This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
