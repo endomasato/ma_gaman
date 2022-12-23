@@ -13,6 +13,7 @@ class LoginScreen extends ConsumerWidget {
     final LoginModel loginModel = ref.watch(LoginModelProvider);
     final TextEditingController emailController = TextEditingController();
     final TextEditingController passwordController = TextEditingController();
+    final TextEditingController nameController = TextEditingController();
     String email = "";
     String password = "";
 
@@ -29,6 +30,29 @@ class LoginScreen extends ConsumerWidget {
                   .of(context)
                   .textTheme
                   .headline4),
+              SizedBox(height: 50,),
+              SizedBox(
+                width: 600,
+                child: TextFormField(
+                  controller: nameController,
+                  decoration: const InputDecoration(
+                    icon: Icon(Icons.ac_unit),
+                    filled: true,
+                    fillColor: Colors.orange,
+                    labelText: "お名前",
+                  ),
+                  keyboardType: TextInputType.emailAddress,
+                  validator: (String? value) {
+                    if (value?.isEmpty == true) {
+                      return "メールアドレスを入力してください";
+                    }
+                    return null;
+                  },
+                  onChanged: (String text) {
+                    loginModel.userName = text;
+                  },
+                ),
+              ),
               SizedBox(height: 50,),
               SizedBox(
                 width: 600,
